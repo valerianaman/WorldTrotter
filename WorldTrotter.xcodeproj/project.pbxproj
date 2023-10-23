@@ -16,6 +16,7 @@
 		E278400A2AE16C6100CD804B /* WorldTrotterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27840092AE16C6100CD804B /* WorldTrotterUITests.swift */; };
 		E278400C2AE16C6100CD804B /* WorldTrotterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E278400B2AE16C6100CD804B /* WorldTrotterUITestsLaunchTests.swift */; };
 		E27840192AE1783F00CD804B /* ConversionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27840182AE1783F00CD804B /* ConversionViewController.swift */; };
+		E2B76C502AE67BEC00CF7EA3 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B76C4F2AE67BEB00CF7EA3 /* MapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		E27840092AE16C6100CD804B /* WorldTrotterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldTrotterUITests.swift; sourceTree = "<group>"; };
 		E278400B2AE16C6100CD804B /* WorldTrotterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldTrotterUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		E27840182AE1783F00CD804B /* ConversionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionViewController.swift; sourceTree = "<group>"; };
+		E2B76C4F2AE67BEB00CF7EA3 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		E2783FE72AE16C5B00CD804B /* WorldTrotter */ = {
 			isa = PBXGroup;
 			children = (
+				E2B76C4F2AE67BEB00CF7EA3 /* MapViewController.swift */,
 				E2783FE82AE16C5B00CD804B /* AppDelegate.swift */,
 				E2783FEA2AE16C5B00CD804B /* SceneDelegate.swift */,
 				E2783FEE2AE16C5B00CD804B /* Main.storyboard */,
@@ -261,6 +264,7 @@
 				E2783FE92AE16C5B00CD804B /* AppDelegate.swift in Sources */,
 				E27840192AE1783F00CD804B /* ConversionViewController.swift in Sources */,
 				E2783FEB2AE16C5B00CD804B /* SceneDelegate.swift in Sources */,
+				E2B76C502AE67BEC00CF7EA3 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

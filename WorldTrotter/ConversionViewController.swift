@@ -87,5 +87,13 @@ class ConversionViewController: UIViewController, UITextFieldDelegate{
         
     }
     
+    var randomColor: CGFloat{
+        return CGFloat(Float.random(in: 0.0...1.0))
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        view.backgroundColor = UIColor(red: randomColor, green: randomColor, blue: randomColor, alpha: 1.0)
+    }
+    
 }
 
