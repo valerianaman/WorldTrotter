@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E271C4132AE7FCB300ABE4FB /* WebController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E271C4122AE7FCB300ABE4FB /* WebController.swift */; };
 		E2783FE92AE16C5B00CD804B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2783FE82AE16C5B00CD804B /* AppDelegate.swift */; };
 		E2783FEB2AE16C5B00CD804B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2783FEA2AE16C5B00CD804B /* SceneDelegate.swift */; };
 		E2783FF02AE16C5B00CD804B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2783FEE2AE16C5B00CD804B /* Main.storyboard */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E271C4122AE7FCB300ABE4FB /* WebController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebController.swift; sourceTree = "<group>"; };
 		E2783FE52AE16C5B00CD804B /* WorldTrotter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldTrotter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2783FE82AE16C5B00CD804B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E2783FEA2AE16C5B00CD804B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				E2783FF12AE16C6000CD804B /* Assets.xcassets */,
 				E2783FF32AE16C6000CD804B /* LaunchScreen.storyboard */,
 				E2783FF62AE16C6000CD804B /* Info.plist */,
+				E271C4122AE7FCB300ABE4FB /* WebController.swift */,
 			);
 			path = WorldTrotter;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 			files = (
 				E2783FE92AE16C5B00CD804B /* AppDelegate.swift in Sources */,
 				E27840192AE1783F00CD804B /* ConversionViewController.swift in Sources */,
+				E271C4132AE7FCB300ABE4FB /* WebController.swift in Sources */,
 				E2783FEB2AE16C5B00CD804B /* SceneDelegate.swift in Sources */,
 				E2B76C502AE67BEC00CF7EA3 /* MapViewController.swift in Sources */,
 			);
