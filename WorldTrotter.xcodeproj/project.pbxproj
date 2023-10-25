@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E271C4132AE7FCB300ABE4FB /* WebController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E271C4122AE7FCB300ABE4FB /* WebController.swift */; };
+		E271C4192AE9553200ABE4FB /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E271C41B2AE9553200ABE4FB /* Localizable.strings */; };
 		E2783FE92AE16C5B00CD804B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2783FE82AE16C5B00CD804B /* AppDelegate.swift */; };
 		E2783FEB2AE16C5B00CD804B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2783FEA2AE16C5B00CD804B /* SceneDelegate.swift */; };
 		E2783FF02AE16C5B00CD804B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2783FEE2AE16C5B00CD804B /* Main.storyboard */; };
@@ -39,6 +40,12 @@
 
 /* Begin PBXFileReference section */
 		E271C4122AE7FCB300ABE4FB /* WebController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebController.swift; sourceTree = "<group>"; };
+		E271C4152AE9507A00ABE4FB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		E271C4162AE950B900ABE4FB /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
+		E271C41A2AE9553200ABE4FB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E271C41C2AE9553900ABE4FB /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E271C41D2AE9561E00ABE4FB /* ca */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ca; path = ca.lproj/Main.strings; sourceTree = "<group>"; };
+		E271C41E2AE9561E00ABE4FB /* ca */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ca; path = ca.lproj/Localizable.strings; sourceTree = "<group>"; };
 		E2783FE52AE16C5B00CD804B /* WorldTrotter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldTrotter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2783FE82AE16C5B00CD804B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E2783FEA2AE16C5B00CD804B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +90,7 @@
 		E2783FDC2AE16C5B00CD804B = {
 			isa = PBXGroup;
 			children = (
+				E271C41B2AE9553200ABE4FB /* Localizable.strings */,
 				E2783FE72AE16C5B00CD804B /* WorldTrotter */,
 				E2783FFE2AE16C6100CD804B /* WorldTrotterTests */,
 				E27840082AE16C6100CD804B /* WorldTrotterUITests */,
@@ -219,6 +227,8 @@
 			knownRegions = (
 				en,
 				Base,
+				es,
+				ca,
 			);
 			mainGroup = E2783FDC2AE16C5B00CD804B;
 			productRefGroup = E2783FE62AE16C5B00CD804B /* Products */;
@@ -238,6 +248,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2783FF52AE16C6000CD804B /* LaunchScreen.storyboard in Resources */,
+				E271C4192AE9553200ABE4FB /* Localizable.strings in Resources */,
 				E2783FF22AE16C6000CD804B /* Assets.xcassets in Resources */,
 				E2783FF02AE16C5B00CD804B /* Main.storyboard in Resources */,
 			);
@@ -305,10 +316,24 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		E271C41B2AE9553200ABE4FB /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E271C41A2AE9553200ABE4FB /* en */,
+				E271C41C2AE9553900ABE4FB /* es */,
+				E271C41E2AE9561E00ABE4FB /* ca */,
+			);
+			name = Localizable.strings;
+			path = WorldTrotter;
+			sourceTree = "<group>";
+		};
 		E2783FEE2AE16C5B00CD804B /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				E2783FEF2AE16C5B00CD804B /* Base */,
+				E271C4152AE9507A00ABE4FB /* en */,
+				E271C4162AE950B900ABE4FB /* es */,
+				E271C41D2AE9561E00ABE4FB /* ca */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -329,6 +354,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -392,6 +418,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
